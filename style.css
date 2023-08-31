@@ -1,0 +1,27 @@
+* {
+  font-family: 'Francois One', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 320px 200px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#board {
+  border: 2px solid black;
+}
+
+.play-btn {
+  background-color: rgb(15, 216, 58);
+  font-size: 16px;
+  padding: 8px 60px;
+  cursor: pointer;
+}
